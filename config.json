@@ -1,0 +1,9 @@
+{
+    "connectionString": "mongodb+srv://Sh2305:Sg2305kec@cluster0.iwjentv.mongodb.net/?retryWrites=true&w=majority",
+    "startTime": "2022-08-23T00:30:00Z",
+    "endTime": "2022-08-23T23:59:00Z",
+    "db": [
+        "rgp",
+        "xyz"
+    ]
+}
