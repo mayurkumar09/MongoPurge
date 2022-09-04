@@ -19,7 +19,7 @@ do
     echo "########################################"
 
     function MongoPurge {
-        mongosh "mongodb+srv://Sh2305:Sg2305kec@cluster0.iwjentv.mongodb.net/?retryWrites=true&w=majority" << EOF
+        mongosh "mongodb+srv://<username>:<password>@cluster0.iwjentv.mongodb.net/?retryWrites=true&w=majority" << EOF
         use $i
         show collections
         db.collection1.deleteMany({ \$and: [{ "createdTime": { \$gte: ISODate($startTime), \$lt: ISODate($endTime) } }, { "gameRoundStatus": "COMPLETED" }] })
